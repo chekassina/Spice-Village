@@ -1,0 +1,6 @@
+{
+  "name": "Zanzibar Spice & Cooking Experience",
+  "description": "An immersive, colorful, and authentic website for Zanzibar spice farm visits, village tours, and traditional cooking classes, featuring online booking, live chat, and a custom currency and language selector.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
