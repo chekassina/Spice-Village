@@ -273,7 +273,7 @@ const rawTourPackages: TourPackage[] = [
       fr: '3 Heures',
       de: '3 Stunden'
     },
-    priceUSD: 35,
+    priceUSD: 10,
     image: '/images/ra11.jpg',
     included: {
       en: ['Local English/FR/DE guide', 'Fresh coconut drink (Dafu)', 'Spiced tea tasting', 'Traditional leaf crown', 'Hotel pickup'],
@@ -308,7 +308,7 @@ const rawTourPackages: TourPackage[] = [
       fr: '4 Heures',
       de: '4 Stunden'
     },
-    priceUSD: 40,
+    priceUSD: 10,
     image: '/images/ra4.jpg',
     included: {
       en: ['Experienced village host', 'School donation contribution', 'Traditional cassava snack', 'Handmade soap souvenir', 'Roundtrip transport'],
@@ -343,7 +343,7 @@ const rawTourPackages: TourPackage[] = [
       fr: '3.5 Heures',
       de: '3.5 Stunden'
     },
-    priceUSD: 45,
+    priceUSD: 10,
     image: '/images/ra9.jpg',
     included: {
       en: ['Professional Swahili chef', 'Full multi-course lunch', 'Recipe booklet (PDF)', 'Unlimited spiced drinks', 'Apron hire'],
@@ -378,7 +378,7 @@ const rawTourPackages: TourPackage[] = [
       fr: '6 Heures',
       de: '6 Stunden'
     },
-    priceUSD: 65,
+    priceUSD: 10,
     image: '/images/ra13.jpg',
     included: {
       en: ['Dual-tour certified guides', 'Tropical fruit lunch buffet', 'All school and farm donations', 'Comfortable AC transport', 'Refreshing spiced drinks'],
@@ -413,7 +413,7 @@ const rawTourPackages: TourPackage[] = [
       fr: '8 Heures',
       de: '8 Stunden'
     },
-    priceUSD: 85,
+    priceUSD: 10,
     image: '/images/ra10.jpg',
     included: {
       en: ['VIP full-day guiding team', 'Zanzibar cooking class & grand lunch', 'Printed recipe book souvenir', 'Private AC transport', 'Fresh coconut (Dafu) & treats', 'Village elder storytelling session'],
