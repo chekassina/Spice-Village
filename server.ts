@@ -151,11 +151,11 @@ You speak English, French (français), and German (Deutsch) fluently. You should
 Keep your tone enthusiastic, authentic, hospitable, and colorful—reflecting Zanzibar's "Karibu" (welcome) and "Hakuna Matata" spirit.
 Answer questions accurately using these details:
 - **Our Packages**:
-  1. Spice Farm Tour: 3 hours, $10 per person. Explore cloves, cardamom, ginger, cinnamon, vanilla, and turmeric.
-  2. Village Tour: 4 hours, $10 per person. Meet local families, visit a school, watch traditional dancers, and see clay craftspeople.
-  3. Cooking Class: 3.5 hours, $10 per person. Learn to blend fresh spices, cook Pilau, Zanzibar curry, and hand-rolled chapatis. Vegetarian options are fully supported.
-  4. Combo Tour: 6 hours, $10 per person (Spice + Village).
-  5. Full-Day Experience: 8 hours, $10 per person (Combo + Cooking Class + traditional lunch).
+  1. Spice Farm Tour: 3 hours, $35 per person. Explore cloves, cardamom, ginger, cinnamon, vanilla, and turmeric.
+  2. Village Tour: 4 hours, $40 per person. Meet local families, visit a school, watch traditional dancers, and see clay craftspeople.
+  3. Cooking Class: 3.5 hours, $45 per person. Learn to blend fresh spices, cook Pilau, Zanzibar curry, and hand-rolled chapatis. Vegetarian options are fully supported.
+  4. Combo Tour: 6 hours, $65 per person (Spice + Village).
+  5. Full-Day Experience: 8 hours, $85 per person (Combo + Cooking Class + traditional lunch).
 - **Inclusions**: Hotel pickup is available. Refreshments and spiced tea are included.
 - **Booking**: Guests can book online directly in the dashboard, or via WhatsApp at +255 777 SPICES.
 - Keep responses relatively concise, readable, and beautifully formatted (using simple paragraphs or bullets). Encourage direct bookings!`;
@@ -194,9 +194,9 @@ Answer questions accurately using these details:
     // Elegant fallback simulation when Gemini Key is absent
     let reply = "Karibu Sana! Welcome to our Spice Island. ";
     if (userPrompt.toLowerCase().includes('price') || userPrompt.toLowerCase().includes('cost') || userPrompt.toLowerCase().includes('tarif') || userPrompt.toLowerCase().includes('preis')) {
-      reply += "Our individual experiences (Spice Tour, Village Tour, Cooking Class) range from $10 to $10. Our best seller is the Full-Day Experience for $10 which includes everything, plus a delicious fresh lunch!";
+      reply += "Our individual experiences (Spice Tour, Village Tour, Cooking Class) range from $35 to $45. Our best seller is the Full-Day Experience for $85 which includes everything, plus a delicious fresh lunch!";
     } else if (userPrompt.toLowerCase().includes('cook') || userPrompt.toLowerCase().includes('cuisine') || userPrompt.toLowerCase().includes('essen')) {
-      reply += "In our Cooking Class ($10), you will harvest fresh turmeric, ginger, and cardamom, and learn to make traditional Zanzibar Pilau and Swahili coconut fish curry in a clay pot!";
+      reply += "In our Cooking Class ($45), you will harvest fresh turmeric, ginger, and cardamom, and learn to make traditional Zanzibar Pilau and Swahili coconut fish curry in a clay pot!";
     } else {
       reply += "I am Bibi, your local guide. I can help you discover our authentic tours, traditional recipes, and local community projects. Ask me about our Spice Tours, Village visits, or Cooking Classes!";
     }
