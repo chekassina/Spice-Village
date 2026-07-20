@@ -21,9 +21,9 @@ export default function PackagesPage({ currentLang, currentCurrency, onBookNow }
 
   const calculateTotalPrice = (basePriceUSD: number) => {
     let price = basePriceUSD * participantsCount;
-    if (privateGuide) price += 30; // +$30 flat private guide fee
-    if (lunchUpgrade) price += 15 * participantsCount; // +$15/person lunch upgrade
-    if (hotelPickup) price += 20; // +$20 flat pickup
+    if (privateGuide) price += 10; // +$10 flat private guide fee
+    if (lunchUpgrade) price += 10 * participantsCount; // +$10/person lunch upgrade
+    if (hotelPickup) price += 10; // +$10 flat pickup
     
     const converted = price * rate;
     return `${sym}${Number(converted).toLocaleString(undefined, { maximumFractionDigits: 0 })}`;
