@@ -43,12 +43,12 @@ const bookings: any[] = [];
 
 // Static Data
 const packages = [
-  { id: 'spice', name: 'Spice Farm Tour', priceUSD: 35, duration: '3 Hours' },
-  { id: 'village', name: 'Village Tour', priceUSD: 40, duration: '4 Hours' },
-  { id: 'cooking', name: 'Cooking Class', priceUSD: 45, duration: '3.5 Hours' },
-  { id: 'combo', name: 'Spice + Village Combo', priceUSD: 65, duration: '6 Hours' },
-  { id: 'full', name: 'Full-Day Experience', priceUSD: 85, duration: '8 Hours' },
-  { id: 'private', name: 'Private Customized Tour', priceUSD: 120, duration: 'Flexible' }
+  { id: 'spice', name: 'Spice Farm Tour', priceUSD: 10, duration: '3 Hours' },
+  { id: 'village', name: 'Village Tour', priceUSD: 10, duration: '4 Hours' },
+  { id: 'cooking', name: 'Cooking Class', priceUSD: 10, duration: '3.5 Hours' },
+  { id: 'combo', name: 'Spice + Village Combo', priceUSD: 10, duration: '6 Hours' },
+  { id: 'full', name: 'Full-Day Experience', priceUSD: 10, duration: '8 Hours' },
+  { id: 'private', name: 'Private Customized Tour', priceUSD: 10, duration: 'Flexible' }
 ];
 
 // Interactive Weather API (Zanzibar simulation)
